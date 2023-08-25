@@ -1,0 +1,26 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+section {
+  text-align: center;
+}
+
+.lpa {
+  display: block;
+}
+
+img {
+  width: 12%;
+  height: auto;
+  animation: spin 1200ms infinite linear;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(1turn);
+  }
+}
